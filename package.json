@@ -1,0 +1,9 @@
+{
+  "name": "postal-codes-mx",
+  "version": "1.0.0",
+  "description": "List with mexican postal codes published by Correos de Mexico",
+  "main": "dist/index.js",
+  "repository": "https://github.com/moffin-tech/postal-code-mx",
+  "author": "Victor Diaz",
+  "license": "MIT"
+}
