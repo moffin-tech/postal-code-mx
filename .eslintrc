@@ -1,0 +1,24 @@
+{
+  "extends": ["standard"],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "eslint-plugin-tsdoc"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "tsdoc/syntax": "warn"
+  },
+  "parser": "@typescript-eslint/parser",
+  "overrides": [{
+    "files": "**/*.test.ts",
+    "env": { "mocha": true },
+    "extends": [
+      "plugin:mocha/recommended",
+      "plugin:chai-friendly/recommended"
+    ],
+    "plugins": ["mocha", "chai-friendly"],
+    "rules": {
+      "mocha/no-mocha-arrows": "off"
+    }
+  }]
+}
