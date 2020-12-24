@@ -1,12 +1,10 @@
 {
   "extends": ["standard"],
   "plugins": [
-    "@typescript-eslint/eslint-plugin",
-    "eslint-plugin-tsdoc"
+    "@typescript-eslint/eslint-plugin"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error",
-    "tsdoc/syntax": "warn"
+    "@typescript-eslint/no-unused-vars": "error"
   },
   "parser": "@typescript-eslint/parser",
   "overrides": [{

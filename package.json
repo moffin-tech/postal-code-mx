@@ -6,6 +6,9 @@
   "repository": "https://github.com/moffin-tech/postal-code-mx",
   "author": "Victor Diaz",
   "license": "MIT",
+  "scripts": {
+    "build": "ts-node src/index.ts"
+  },
   "devDependencies": {
     "@types/mocha": "^8.2.0",
     "@types/node": "^14.14.16",
